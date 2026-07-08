@@ -4,7 +4,9 @@ import json
 # ---------- Configuration ----------
 BUCKET_NAME = "employee-pht"      # Replace with your S3 bucket name
 IMAGE_FILE = "images/employee.jpg"       # Local image path
-OBJECT_NAME = "employee.jpg"             # Name in S3
+OBJECT_NAME = "employee.jpg"      
+IMAGE_FILE = "images/employee2.jpg"       # Local image path
+OBJECT_NAME = "employee2.jpg"              # Name in S3
 
 # ---------- AWS Clients ----------
 s3 = boto3.client("s3")
